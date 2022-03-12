@@ -1,0 +1,24 @@
+<h2>Products</h2>
+<div class="div1">
+    <div class="div2" *ngFor="let product of products">
+      <h3>
+        <a
+          [title]="product.name + ' details' + ' price'"
+          [routerLink]="['/products', product.id]"
+        >
+          {{ product.name }}
+        </a>
+      </h3>
+     <a target="_blank" href="{{product.links}}"> <img class="imagess" src="{{ product.image }}"  alt=""/></a>
+      <p *ngIf="product.price">Price: ${{ product.price }}</p>
+      <p *ngIf="product.description">Description: {{ product.description }}</p>
+      <p *ngIf="product.rating">Rating: {{ product.rating }} out of 5</p>
+     <a href="https://api.whatsapp.com/send/?phone&text={{product.links}}"><button type="submit">Share</button></a>
+    </div>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>	
+<body>
+	
+	<script>
+	let age;
+	alert( null || 2 || undefined );//2
+	alert( alert(1) || 2 || alert(3) );//1,2
+	alert( 1 && null && 2 );//0
+	alert( alert(1) && alert(2) );// undefined
+	alert( null || 2 && 3 || 4 );// 3
+	if(age>=14 && age=<90) //Diapazon mezhdu 14 i 90
+	if(!(age>=14&&age<=90))// Diapazon NE mezhdu 14 i 90
+	if (-1 || 0) alert( 'first' );//Vipolnitsya
+	if (-1 && 0) alert( 'second' );//Ne vipolnitsya
+	if (null || -1 && 1) alert( 'third' );//Vipolnitsya
+	</script>
+	
+	</body>
+</html>

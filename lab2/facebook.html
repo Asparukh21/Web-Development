@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Facebook</title>
+        <meta charset="UTF-8">
+    </head>
+    <style>
+        body{
+            background-color: #f0f2f5;
+ 
+        }
+        .picture{
+        
+            margin-top: 140px;
+            margin-left: 220px;
+            
+ 
+ 
+        }
+        .facebook2{
+            margin-top: -10px;
+            margin-left: 250px;
+            max-width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            font-weight : normal;
+        }
+ 
+        .form{
+            background-color: white;
+            height: 400px;
+            display: flexbox;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(0 0 0 / 15%), 0 8px 16px rgb(0 0 0 / 20%);
+            box-sizing: border-box;
+            margin-left: 800px;
+            margin-top: -280px;
+            width: 430px;
+            text-align: center;
+ 
+        }
+        .login{
+            display: flexbox;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 15px 20px 0px 20px;
+            padding: 6px 20px;
+            width: 333px;
+            height: 44px;
+            border: 1px solid #dddfe2;
+            color: #1d2129;
+            border-radius: 6px;
+            font-size: 17px;
+        }
+        .button1{
+            background-color: #1877F2;
+            width: 380px;
+            height: 60px;
+            padding: 6px 20px;
+            text-align: center;
+            margin: 20px 20px;
+            color: white;
+            border-radius: 6px;
+            font-size:20px;
+            border-color: #1872F2;
+            font:20px Helvetica,Arial,sans-serif;
+            font-weight: bold;
+ 
+        }
+        .button1 a{
+            text-decoration: none;
+            color:white;
+        }
+        .button1:hover{
+            background-color:#166FE5;
+            cursor: pointer;
+        }
+        .button2{
+            background-color: #42B72A;
+            width: 270px;
+            border-color:#42B72A;
+            height: 60px;
+            padding: 10px 12px;
+            text-align: center;
+            margin-top: -0px;
+            color: white;
+            font-size:20px;
+            font-family: Helvetica,Arial,sans-serif;
+            border-radius: 6px;
+            margin-bottom: 0px;
+            font-weight: bold;
+        }
+        .button2:hover{
+            background-color:#36A421;
+            cursor: pointer;
+        }
+        .button2 a{
+            text-decoration: none;
+            color:white;
+        }
+        .line{
+            align-items: center;
+            border-bottom: 1px solid gainsboro;
+            display: flex;
+            margin: 10px 10px 27px 27px;
+            width:375px;
+            
+        }
+        .zabili1{
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 35px;
+            margin-top: -10px;
+
+        }
+        .zabili1 a{
+            color:#1877F2;
+        }
+        .zabili1 a:hover{
+            text-decoration: underline;
+        }
+        .zabili1 a{
+            text-decoration:none;
+        } 
+        .account{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px 0px 0px 660px;
+            width: 700px;
+            text-align: center;
+        }
+        .account a{
+            color:#1c1e21;
+        }
+        .account a:hover{
+           text-decoration: underline;
+        }
+         .footer{
+            width: 1000px;
+            background-color: #ffff;
+            margin-left: 0px;
+            margin-top: 250px;
+            text-align: left;
+ 
+ 
+            padding: 20px 511px 20px 0px;
+        }
+        .footer-language{
+            width: 1000px;
+            margin-left: 255px;
+            border-bottom: 1px solid #bbb8b898;
+            height: 40px;
+            line-height: 45px;
+            font-size: 12px;
+            color:#848484;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .footer-language a:hover{
+            text-decoration: underline;
+        }
+        .footer-language a{
+            color:#848484;
+            display: inline;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        .footer-list{
+            width: 1000px;
+            margin: 0px 120px 0 252px;
+            font-size: 12px;
+            color:#848484;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        .footer-list a{
+            color:#848484;
+            display: inline-block;
+            margin-right:10px ;
+            padding: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            text-align: center;
+        }
+ 
+        .footer-list a:hover{
+            text-decoration: underline;
+        }
+        .footer-list p{
+            margin-top: 20px;
+            margin-left: 0px;
+ 
+        }
+        .link {
+            text-decoration: none;
+        }
+       
+        
+        
+        
+
+    
+    </style>
+ 
+    <body>
+        <img class="picture" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" width="301.06" >
+        <h2 class="facebook2">Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</h2>
+ 
+        <div class="form">
+            <input class="login" type="text" placeholder="Электронный адрес или номер телефона">
+            <input class="login" type="password" placeholder="Пароль">
+            <button class="button1"><a href="#">Вход</a></button>
+            <div class="zabili1">
+                <a class="zabili2"href="#"> Забыли пароль?</a>
+            </div>
+            <div class="line"></div>
+            <button class="button2"> <a href="#">Создать новый аккаунт</a></button>
+        </div>
+            <div class="account">
+                <a class="link" href="#"><strong>Создать Cтраницу</strong></a> знаменитости, музыкальной группы или
+                <br> компании.
+            </div>
+ 
+        <div class="footer">
+            <div class="footer-language">
+                Русский
+                <a href="#">English(US)</a> 
+                <a href="#">Türkçe</a> 
+                <a href="#">Bahasa Indonesia</a> 
+                <a href="#">中文(简体)</a>
+                <a href="#">Қазақша</a>
+                <a href="#">Deutsch</a>
+                <a href="#">한국어</a>
+                <a href="#">Shqip</a>
+                <a href="#">Español</a>
+                <a href="#">Português (Brasil)</a>
+            </div>
+            <div  class="footer-list">
+                <a href="#">Регистрация</a> 
+                <a href="#">Вход</a> 
+                <a href="#">Messenger</a> 
+                <a href="#">Facebook Lite</a> 
+                <a href="#">Watch</a> 
+                <a href="#">Места</a> 
+                <a href="#">Игры</a> 
+                <a href="#">Marketplace</a> 
+                <a href="#">Facebook Pay</a> 
+                <a href="#">Oculus</a> 
+                <a href="#">Portal</a> 
+                <a href="#">Instagram</a>
+                <a href="#">Bulletin</a> 
+                <a href="#">Местные</a> 
+                <a href="#">Благотворительные акции</a>  
+                <a href="#">Услуги</a> 
+                <a href="#">Центр Информации о голосовании</a> 
+                <a href="#">Группы</a> 
+                <a href="#">Информация</a> 
+                <a href="#">Создать рекламу</a> 
+                <a href="#">Создать страницу</a>
+                <a href="#">Разработчикам</a> 
+                <a href="#">Вакансии</a> 
+                <a href="#">Конфиденциальность</a> 
+                <a href="#">Файлы cookie</a> 
+                <a href="#">Рекламные предпочтения</a> 
+                <a href="#">Условия пользования</a> 
+                <a href="#">Справка</a>                
+                <p>Meta © 2022</a>
+            </div>
+        </div>
+    </body>
+</html>
